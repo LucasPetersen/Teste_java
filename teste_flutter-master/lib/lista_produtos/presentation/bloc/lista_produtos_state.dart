@@ -10,8 +10,7 @@ class Loading extends ListaProdutosState {}
 
 class ListaCarregada extends ListaProdutosState {
   final List<Produto> produtos;
-
-  ListaCarregada(this.produtos);
+  ListaCarregada( {@required this.produtos});
 }
 
 class Error extends ListaProdutosState {
